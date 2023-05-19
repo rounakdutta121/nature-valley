@@ -52,6 +52,7 @@ body{
     margin: auto;
     width: 70vw;
     border: 1px solid black;
+    border-radius:12px;
     height: auto;
     background-color: white;
     text-align: center;
@@ -97,6 +98,7 @@ body{
         margin: auto;
         width: 70vw;
         border: 1px solid black;
+        border-radius:12px;
         height: auto;
         background-color: white;
         text-align: center;
