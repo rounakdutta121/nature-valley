@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bg.jpg');
+}
+.nav{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 100vw;
+}
+.right{
+    height: 80px;
+    width: 50%;
+    display: grid;
+    height: 80px;
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    background-color: white;
+    font-family: 'Style Script', cursive;
+    font-size: 3rem;
+    border-radius: 25px;
+    
+}
+.left{
+    height: 80px;
+    width: 50%;
+    display: grid;
+    height: 80px;
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Style Script', cursive;
+    font-size: 3rem;
+    border-radius: 25px;
+}
+.pt{
+    padding-top: 37px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70vw;
+    border: 1px solid black;
+    height: auto;
+    background-color: white;
+    text-align: center;
+}
+.heading h1{
+    font-family: 'Explora', cursive;
+    font-weight: bolder;
+}
+.ig{
+    margin-top: 23px;
+    display: flex;
+}
+.ig span{
+    font-weight: bolder;
+}
+.img1{
+    width: 97%;
+    height: 50vh;
+    object-fit: cover;
+    
+}
+.description{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+.mt{
+    margin-top:57px;
+}
+#img9{
+    width: 100%;
+    height: 50vh;
+    object-fit:contain ;
+}
+@media only screen and (max-width: 600px) {
+    .main-content{
+        padding-top: 37px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 70vw;
+        border: 1px solid black;
+        height: auto;
+        background-color: white;
+        text-align: center;
+        
+    }
+    .mt{
+        margin-top: 62px;
+    }
+    .mtig{
+        margin-top:-21px !important;
+        
+    }
+    .ig{
+        margin-top: 23px ;
+        display: flex;
+    }
+    .img1{
+        width: 90% !important;
+        height: 20vh !important ;
+        object-fit: cover !important;
+    }
+  }
