@@ -63,7 +63,7 @@ body {
 .left1 div {
     font-size: 3rem;
     padding-right: 180px;
-    width: 80%;
+    width: 99%;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -154,15 +154,16 @@ body {
     margin-top: 30px;
 }
 @media only screen and (max-width: 1920px) {
+    .line{
+        width: 75vw !important;
+        margin-top: 150px;
+    }
     .content h1 {
         font-size: 2rem;
         color: white;
         font-family: 'Roboto Slab', serif;
         margin-left: 120px;
         margin-top: 55px;
-    }
-    .line{
-        width: 75vw;
     }
     .line1{
         margin-top: 60px !important;
